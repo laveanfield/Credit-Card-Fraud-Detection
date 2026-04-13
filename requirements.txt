@@ -1,0 +1,13 @@
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.10.1
+scipy==1.13.1
+seaborn==0.13.2
+plotly==6.0.1
+scikit-learn==1.6.1
+imbalanced-learn==0.13.0
+xgboost==3.0.0
+lightgbm==4.6.0
+optuna==4.3.0
+joblib==1.4.2
+tensorflow==2.19.0

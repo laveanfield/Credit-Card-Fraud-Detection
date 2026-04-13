@@ -1,0 +1,27 @@
+{
+  "cache_signature": {
+    "architectures": [
+      "standard",
+      "deep",
+      "wide"
+    ],
+    "min_precision": 0.6,
+    "epochs": 100,
+    "batch_size": 512,
+    "smote_sampling_strategy": 1.0
+  },
+  "winner": {
+    "architecture": "wide",
+    "model_name": "wide_mlp",
+    "val_pr_auc": 0.7960005681165073,
+    "val_roc_auc": 0.9367692912843246,
+    "threshold_info": {
+      "threshold": 0.6122468709945679,
+      "precision": 0.6666666666666666,
+      "recall": 0.8163265306122449,
+      "f1": 0.7339449541284404,
+      "selection_note": "feasible_threshold",
+      "num_feasible_thresholds": 66
+    }
+  }
+}

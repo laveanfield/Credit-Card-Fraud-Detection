@@ -1,0 +1,44 @@
+[
+  {
+    "architecture": "standard",
+    "model_name": "standard_mlp",
+    "val_pr_auc": 0.7893117343971321,
+    "val_roc_auc": 0.9301756859187118,
+    "threshold_info": {
+      "threshold": 0.2286522537469864,
+      "precision": 0.6666666666666666,
+      "recall": 0.8163265306122449,
+      "f1": 0.7339449541284404,
+      "selection_note": "feasible_threshold",
+      "num_feasible_thresholds": 63
+    }
+  },
+  {
+    "architecture": "deep",
+    "model_name": "deep_mlp",
+    "val_pr_auc": 0.7880528208528311,
+    "val_roc_auc": 0.9289317584096102,
+    "threshold_info": {
+      "threshold": 0.05756976827979088,
+      "precision": 0.8,
+      "recall": 0.8163265306122449,
+      "f1": 0.8080808080808081,
+      "selection_note": "feasible_threshold",
+      "num_feasible_thresholds": 63
+    }
+  },
+  {
+    "architecture": "wide",
+    "model_name": "wide_mlp",
+    "val_pr_auc": 0.7960005681165073,
+    "val_roc_auc": 0.9367692912843246,
+    "threshold_info": {
+      "threshold": 0.6122468709945679,
+      "precision": 0.6666666666666666,
+      "recall": 0.8163265306122449,
+      "f1": 0.7339449541284404,
+      "selection_note": "feasible_threshold",
+      "num_feasible_thresholds": 66
+    }
+  }
+]

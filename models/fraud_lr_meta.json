@@ -1,0 +1,36 @@
+{
+  "cache_signature": {
+    "c_values": [
+      0.01,
+      0.1,
+      1,
+      10
+    ],
+    "branches": [
+      "balanced",
+      "smote"
+    ],
+    "min_precision": 0.6,
+    "max_iter": 3000,
+    "tol": 0.001
+  },
+  "winner": {
+    "branch_name": "balanced",
+    "C": 1,
+    "display_name": "LR + class_weight=balanced | C=1",
+    "X_fit_shape": [
+      199364,
+      30
+    ],
+    "val_pr_auc": 0.6216442816815668,
+    "val_roc_auc": 0.961352830383701,
+    "threshold_info": {
+      "threshold": 0.9993880747693451,
+      "precision": 0.7115384615384616,
+      "recall": 0.7551020408163265,
+      "f1": 0.7326732673267327,
+      "selection_note": "feasible_threshold",
+      "num_feasible_thresholds": 43
+    }
+  }
+}
